@@ -1,0 +1,1716 @@
+[
+    {
+        "type": "heading",
+        "raw": "# 快速开始\n\n",
+        "depth": 1,
+        "text": "快速开始",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "快速开始",
+                "text": "快速开始",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "Qwen（通义千问）的API使用和OpenAI API适配的API格式，这也意味着，开发者只需修改key和base url即可使用阿里云提供的Qwen模型服务，可以使用OpenAI SDK以及轻松使用OpenAI API兼容的服务。Qwen API的chat completion服务能够接收prompt输入并输出文本回复，可应用于问答、对话、创作、翻译、摘要、代码辅助等应用场景中。本文档旨在帮助用户快速开始使用Qwen API，其中包括：",
+        "text": "Qwen（通义千问）的API使用和OpenAI API适配的API格式，这也意味着，开发者只需修改key和base url即可使用阿里云提供的Qwen模型服务，可以使用OpenAI SDK以及轻松使用OpenAI API兼容的服务。Qwen API的chat completion服务能够接收prompt输入并输出文本回复，可应用于问答、对话、创作、翻译、摘要、代码辅助等应用场景中。本文档旨在帮助用户快速开始使用Qwen API，其中包括：",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "Qwen（通义千问）的API使用和OpenAI API适配的API格式，这也意味着，开发者只需修改key和base url即可使用阿里云提供的Qwen模型服务，可以使用OpenAI SDK以及轻松使用OpenAI API兼容的服务。Qwen API的chat completion服务能够接收prompt输入并输出文本回复，可应用于问答、对话、创作、翻译、摘要、代码辅助等应用场景中。本文档旨在帮助用户快速开始使用Qwen API，其中包括：",
+                "text": "Qwen（通义千问）的API使用和OpenAI API适配的API格式，这也意味着，开发者只需修改key和base url即可使用阿里云提供的Qwen模型服务，可以使用OpenAI SDK以及轻松使用OpenAI API兼容的服务。Qwen API的chat completion服务能够接收prompt输入并输出文本回复，可应用于问答、对话、创作、翻译、摘要、代码辅助等应用场景中。本文档旨在帮助用户快速开始使用Qwen API，其中包括：",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "* 注册账号及开通服务\n* 配置环境，其中包括Python、curl等\n* 如何使用API",
+        "ordered": false,
+        "start": "",
+        "loose": false,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "* 注册账号及开通服务\n",
+                "task": false,
+                "loose": false,
+                "text": "注册账号及开通服务",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "注册账号及开通服务",
+                        "text": "注册账号及开通服务",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "注册账号及开通服务",
+                                "text": "注册账号及开通服务",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "* 配置环境，其中包括Python、curl等\n",
+                "task": false,
+                "loose": false,
+                "text": "配置环境，其中包括Python、curl等",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "配置环境，其中包括Python、curl等",
+                        "text": "配置环境，其中包括Python、curl等",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "配置环境，其中包括Python、curl等",
+                                "text": "配置环境，其中包括Python、curl等",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "* 如何使用API",
+                "task": false,
+                "loose": false,
+                "text": "如何使用API",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "如何使用API",
+                        "text": "如何使用API",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "如何使用API",
+                                "text": "如何使用API",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "## 开通服务并创建API-KEY\n\n",
+        "depth": 2,
+        "text": "开通服务并创建API-KEY",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "开通服务并创建API-KEY",
+                "text": "开通服务并创建API-KEY",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "首先，[注册阿里云账号](https://account.aliyun.com/register/register.htm)，并完成账号[实名认证](https://account.console.aliyun.com/v2/?spm=a2c4g.324614.0.0.1158db8808Oi7x#/authc/home)",
+        "text": "首先，[注册阿里云账号](https://account.aliyun.com/register/register.htm)，并完成账号[实名认证](https://account.console.aliyun.com/v2/?spm=a2c4g.324614.0.0.1158db8808Oi7x#/authc/home)",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "首先，",
+                "text": "首先，",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[注册阿里云账号](https://account.aliyun.com/register/register.htm)",
+                "href": "https://account.aliyun.com/register/register.htm",
+                "title": null,
+                "text": "注册阿里云账号",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "注册阿里云账号",
+                        "text": "注册阿里云账号",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "，并完成账号",
+                "text": "，并完成账号",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[实名认证](https://account.console.aliyun.com/v2/?spm=a2c4g.324614.0.0.1158db8808Oi7x#/authc/home)",
+                "href": "https://account.console.aliyun.com/v2/?spm=a2c4g.324614.0.0.1158db8808Oi7x#/authc/home",
+                "title": null,
+                "text": "实名认证",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "实名认证",
+                        "text": "实名认证",
+                        "escaped": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "登录[DashScope控制台](https://dashscope.console.aliyun.com)，开通服务",
+        "text": "登录[DashScope控制台](https://dashscope.console.aliyun.com)，开通服务",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "登录",
+                "text": "登录",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[DashScope控制台](https://dashscope.console.aliyun.com)",
+                "href": "https://dashscope.console.aliyun.com",
+                "title": null,
+                "text": "DashScope控制台",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "DashScope控制台",
+                        "text": "DashScope控制台",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "，开通服务",
+                "text": "，开通服务",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "hugoFigure",
+        "raw": "![image](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9yvaz6oMlapY/img/84d03a5e-e8be-4e5c-a53a-868346873718.png)",
+        "src": "https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9yvaz6oMlapY/img/84d03a5e-e8be-4e5c-a53a-868346873718.png",
+        "text": "image"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "导航到[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)并创建新的API-KEY。",
+        "text": "导航到[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)并创建新的API-KEY。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "导航到",
+                "text": "导航到",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)",
+                "href": "https://dashscope.console.aliyun.com/apiKey",
+                "title": null,
+                "text": "API-KEY页面",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "API-KEY页面",
+                        "text": "API-KEY页面",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "并创建新的API-KEY。",
+                "text": "并创建新的API-KEY。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "## 环境配置\n\n",
+        "depth": 2,
+        "text": "环境配置",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "环境配置",
+                "text": "环境配置",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "我们可以使用Python、curl等访问Qwen API。下面我们将简单说明如何配置基本环境。",
+        "text": "我们可以使用Python、curl等访问Qwen API。下面我们将简单说明如何配置基本环境。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "我们可以使用Python、curl等访问Qwen API。下面我们将简单说明如何配置基本环境。",
+                "text": "我们可以使用Python、curl等访问Qwen API。下面我们将简单说明如何配置基本环境。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "### Python\n\n",
+        "depth": 3,
+        "text": "Python",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "Python",
+                "text": "Python",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装Python</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n您需要安装Python才能通过Python访问Qwen API。如您不了解Python，建议您访问[官网](https://www.python.org)了解如何使用。建议您打开终端或命令行检查是否能够使用Python：\n\n",
+        "pre": false,
+        "text": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装Python</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n您需要安装Python才能通过Python访问Qwen API。如您不了解Python，建议您访问[官网](https://www.python.org)了解如何使用。建议您打开终端或命令行检查是否能够使用Python：\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "* **MacOS**: 建议安装iTerm并打开iTerm\n* **Windows**: 在开始菜单搜索 `cmd` 打开命令行窗口",
+        "ordered": false,
+        "start": "",
+        "loose": false,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "* **MacOS**: 建议安装iTerm并打开iTerm\n",
+                "task": false,
+                "loose": false,
+                "text": "**MacOS**: 建议安装iTerm并打开iTerm",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**MacOS**: 建议安装iTerm并打开iTerm",
+                        "text": "**MacOS**: 建议安装iTerm并打开iTerm",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**MacOS**",
+                                "text": "MacOS",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "MacOS",
+                                        "text": "MacOS",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 建议安装iTerm并打开iTerm",
+                                "text": ": 建议安装iTerm并打开iTerm",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "* **Windows**: 在开始菜单搜索 `cmd` 打开命令行窗口",
+                "task": false,
+                "loose": false,
+                "text": "**Windows**: 在开始菜单搜索 `cmd` 打开命令行窗口",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**Windows**: 在开始菜单搜索 `cmd` 打开命令行窗口",
+                        "text": "**Windows**: 在开始菜单搜索 `cmd` 打开命令行窗口",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**Windows**",
+                                "text": "Windows",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "Windows",
+                                        "text": "Windows",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 在开始菜单搜索 ",
+                                "text": ": 在开始菜单搜索 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`cmd`",
+                                "text": "cmd"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 打开命令行窗口",
+                                "text": " 打开命令行窗口",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "输入 `python` 并点击回车即可通过判断是否进入Python确认是否安装成功。如出现\"Error: command python not found\"，即Python尚未安装成功。我们建议您安装3.7及以上的Python版本。",
+        "text": "输入 `python` 并点击回车即可通过判断是否进入Python确认是否安装成功。如出现\"Error: command python not found\"，即Python尚未安装成功。我们建议您安装3.7及以上的Python版本。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "输入 ",
+                "text": "输入 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`python`",
+                "text": "python"
+            },
+            {
+                "type": "text",
+                "raw": " 并点击回车即可通过判断是否进入Python确认是否安装成功。如出现\"Error: command python not found\"，即Python尚未安装成功。我们建议您安装3.7及以上的Python版本。",
+                "text": " 并点击回车即可通过判断是否进入Python确认是否安装成功。如出现\"Error: command python not found\"，即Python尚未安装成功。我们建议您安装3.7及以上的Python版本。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "我们建议您使用虚拟环境来进行Python的相关配置，并推荐使用anaconda。建议访问[Anaconda官网](https://www.anaconda.com/)了解如何下载和使用。\n",
+        "text": "我们建议您使用虚拟环境来进行Python的相关配置，并推荐使用anaconda。建议访问[Anaconda官网](https://www.anaconda.com/)了解如何下载和使用。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "我们建议您使用虚拟环境来进行Python的相关配置，并推荐使用anaconda。建议访问",
+                "text": "我们建议您使用虚拟环境来进行Python的相关配置，并推荐使用anaconda。建议访问",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[Anaconda官网](https://www.anaconda.com/)",
+                "href": "https://www.anaconda.com/",
+                "title": null,
+                "text": "Anaconda官网",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "Anaconda官网",
+                        "text": "Anaconda官网",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "了解如何下载和使用。",
+                "text": "了解如何下载和使用。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "</p>\n</details>\n</p>\n\n",
+        "pre": false,
+        "text": "</p>\n</details>\n</p>\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装OpenAI Python库</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n在确保您的环境上已经预装Python环境（>=3.7.1）后，请安装OpenAI Python库，运行：\n\n",
+        "pre": false,
+        "text": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装OpenAI Python库</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n在确保您的环境上已经预装Python环境（>=3.7.1）后，请安装OpenAI Python库，运行：\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```bash\npip install openai --upgrade\n```",
+        "lang": "bash",
+        "text": "pip install openai --upgrade"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "运行完此命令后，可以通过继续运行 `pip list` 命令来查看 `openai` 是否安装成功以及安装的版本。\n",
+        "text": "运行完此命令后，可以通过继续运行 `pip list` 命令来查看 `openai` 是否安装成功以及安装的版本。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "运行完此命令后，可以通过继续运行 ",
+                "text": "运行完此命令后，可以通过继续运行 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`pip list`",
+                "text": "pip list"
+            },
+            {
+                "type": "text",
+                "raw": " 命令来查看 ",
+                "text": " 命令来查看 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`openai`",
+                "text": "openai"
+            },
+            {
+                "type": "text",
+                "raw": " 是否安装成功以及安装的版本。",
+                "text": " 是否安装成功以及安装的版本。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "</p>\n</details>\n</p>\n\n",
+        "pre": false,
+        "text": "</p>\n</details>\n</p>\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "### curl\n\n",
+        "depth": 3,
+        "text": "curl",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "curl",
+                "text": "curl",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装curl</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n\n",
+        "pre": false,
+        "text": "<p style=\"margin-top: 12px;\">\n<details>\n<summary>\n  <strong>安装curl</strong> \n</summary>\n<p style=\"margin-top: 12px;\">\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "大部分操作系统均配置了curl，如需检查是否能正常使用curl，可打开命令行窗口（MacOS打开iTerm，Windows在开始菜单搜索 `cmd` ）并运行如下命令：",
+        "text": "大部分操作系统均配置了curl，如需检查是否能正常使用curl，可打开命令行窗口（MacOS打开iTerm，Windows在开始菜单搜索 `cmd` ）并运行如下命令：",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "大部分操作系统均配置了curl，如需检查是否能正常使用curl，可打开命令行窗口（MacOS打开iTerm，Windows在开始菜单搜索 ",
+                "text": "大部分操作系统均配置了curl，如需检查是否能正常使用curl，可打开命令行窗口（MacOS打开iTerm，Windows在开始菜单搜索 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`cmd`",
+                "text": "cmd"
+            },
+            {
+                "type": "text",
+                "raw": " ）并运行如下命令：",
+                "text": " ）并运行如下命令：",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```bash\ncurl https://dashscope.aliyun.com/\n```",
+        "lang": "bash",
+        "text": "curl https://dashscope.aliyun.com/"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "发送HTTP请求后将获取到网页内容。如果返回报错，请访问[官网](https://everything.curl.dev/get)并按照官网要求安装。",
+        "text": "发送HTTP请求后将获取到网页内容。如果返回报错，请访问[官网](https://everything.curl.dev/get)并按照官网要求安装。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "发送HTTP请求后将获取到网页内容。如果返回报错，请访问",
+                "text": "发送HTTP请求后将获取到网页内容。如果返回报错，请访问",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[官网](https://everything.curl.dev/get)",
+                "href": "https://everything.curl.dev/get",
+                "title": null,
+                "text": "官网",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "官网",
+                        "text": "官网",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "并按照官网要求安装。",
+                "text": "并按照官网要求安装。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "</p>\n</details>\n</p>\n\n\n\n",
+        "pre": false,
+        "text": "</p>\n</details>\n</p>\n\n\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "## 配置API Key\n",
+        "depth": 2,
+        "text": "配置API Key",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "配置API Key",
+                "text": "配置API Key",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "在[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)中找到此前创建好的API Key。配置好API Key后，Python便能检测到它并在项目中使用它。下面分别说明如何在MacOS和Windows上配置。",
+        "text": "在[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)中找到此前创建好的API Key。配置好API Key后，Python便能检测到它并在项目中使用它。下面分别说明如何在MacOS和Windows上配置。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "在",
+                "text": "在",
+                "escaped": false
+            },
+            {
+                "type": "link",
+                "raw": "[API-KEY页面](https://dashscope.console.aliyun.com/apiKey)",
+                "href": "https://dashscope.console.aliyun.com/apiKey",
+                "title": null,
+                "text": "API-KEY页面",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "API-KEY页面",
+                        "text": "API-KEY页面",
+                        "escaped": false
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "raw": "中找到此前创建好的API Key。配置好API Key后，Python便能检测到它并在项目中使用它。下面分别说明如何在MacOS和Windows上配置。",
+                "text": "中找到此前创建好的API Key。配置好API Key后，Python便能检测到它并在项目中使用它。下面分别说明如何在MacOS和Windows上配置。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "<p style=\"margin-top: 12px;\">\n<details>\n<summary><strong>MacOS</strong></summary>\n<p style=\"margin-top: 12px;\">\n\n",
+        "pre": false,
+        "text": "<p style=\"margin-top: 12px;\">\n<details>\n<summary><strong>MacOS</strong></summary>\n<p style=\"margin-top: 12px;\">\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "1. **打开终端**: 打开iTerm，如找不到iTerm可通过点击 `Command+Space` 搜索\n\n2. **编辑Bash Profile**: 使用 `nano ~/.bash_profile` 或者 `nano ~/.zshrc` （如您使用zsh或使用较新的MacOS版本）打开profile文件\n\n3. **新增环境变量**: 请在profile文件中，新增下列命令，并将 `your-api-key-here` 替换成你实际使用的API Key",
+        "ordered": true,
+        "start": 1,
+        "loose": true,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "1. **打开终端**: 打开iTerm，如找不到iTerm可通过点击 `Command+Space` 搜索\n\n",
+                "task": false,
+                "loose": true,
+                "text": "**打开终端**: 打开iTerm，如找不到iTerm可通过点击 `Command+Space` 搜索\n",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**打开终端**: 打开iTerm，如找不到iTerm可通过点击 `Command+Space` 搜索\n",
+                        "text": "**打开终端**: 打开iTerm，如找不到iTerm可通过点击 `Command+Space` 搜索",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**打开终端**",
+                                "text": "打开终端",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "打开终端",
+                                        "text": "打开终端",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 打开iTerm，如找不到iTerm可通过点击 ",
+                                "text": ": 打开iTerm，如找不到iTerm可通过点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`Command+Space`",
+                                "text": "Command+Space"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 搜索",
+                                "text": " 搜索",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "2. **编辑Bash Profile**: 使用 `nano ~/.bash_profile` 或者 `nano ~/.zshrc` （如您使用zsh或使用较新的MacOS版本）打开profile文件\n\n",
+                "task": false,
+                "loose": true,
+                "text": "**编辑Bash Profile**: 使用 `nano ~/.bash_profile` 或者 `nano ~/.zshrc` （如您使用zsh或使用较新的MacOS版本）打开profile文件\n",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**编辑Bash Profile**: 使用 `nano ~/.bash_profile` 或者 `nano ~/.zshrc` （如您使用zsh或使用较新的MacOS版本）打开profile文件\n",
+                        "text": "**编辑Bash Profile**: 使用 `nano ~/.bash_profile` 或者 `nano ~/.zshrc` （如您使用zsh或使用较新的MacOS版本）打开profile文件",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**编辑Bash Profile**",
+                                "text": "编辑Bash Profile",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "编辑Bash Profile",
+                                        "text": "编辑Bash Profile",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 使用 ",
+                                "text": ": 使用 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`nano ~/.bash_profile`",
+                                "text": "nano ~/.bash_profile"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 或者 ",
+                                "text": " 或者 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`nano ~/.zshrc`",
+                                "text": "nano ~/.zshrc"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " （如您使用zsh或使用较新的MacOS版本）打开profile文件",
+                                "text": " （如您使用zsh或使用较新的MacOS版本）打开profile文件",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "3. **新增环境变量**: 请在profile文件中，新增下列命令，并将 `your-api-key-here` 替换成你实际使用的API Key",
+                "task": false,
+                "loose": true,
+                "text": "**新增环境变量**: 请在profile文件中，新增下列命令，并将 `your-api-key-here` 替换成你实际使用的API Key",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**新增环境变量**: 请在profile文件中，新增下列命令，并将 `your-api-key-here` 替换成你实际使用的API Key",
+                        "text": "**新增环境变量**: 请在profile文件中，新增下列命令，并将 `your-api-key-here` 替换成你实际使用的API Key",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**新增环境变量**",
+                                "text": "新增环境变量",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "新增环境变量",
+                                        "text": "新增环境变量",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 请在profile文件中，新增下列命令，并将 ",
+                                "text": ": 请在profile文件中，新增下列命令，并将 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`your-api-key-here`",
+                                "text": "your-api-key-here"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 替换成你实际使用的API Key",
+                                "text": " 替换成你实际使用的API Key",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```bash\nexport DASHSCOPE_API_KEY='your-api-key-here'\n```",
+        "lang": "bash",
+        "text": "export DASHSCOPE_API_KEY='your-api-key-here'"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "1. **保存并退出**: 点击 `Ctrl+O` 保存更改内容，并点击 `Ctrl+O` 关闭编辑器\n\n2. **载入Profile**: 使用命令 `source ~/.bash_profile` 或 `source ~/.zshrc`载入更新后的Profile\n\n3. **验证**: 可通过运行命令 `echo $DASHSCOPE_API_KEY` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+        "ordered": true,
+        "start": 1,
+        "loose": true,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "1. **保存并退出**: 点击 `Ctrl+O` 保存更改内容，并点击 `Ctrl+O` 关闭编辑器\n\n",
+                "task": false,
+                "loose": true,
+                "text": "**保存并退出**: 点击 `Ctrl+O` 保存更改内容，并点击 `Ctrl+O` 关闭编辑器\n",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**保存并退出**: 点击 `Ctrl+O` 保存更改内容，并点击 `Ctrl+O` 关闭编辑器\n",
+                        "text": "**保存并退出**: 点击 `Ctrl+O` 保存更改内容，并点击 `Ctrl+O` 关闭编辑器",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**保存并退出**",
+                                "text": "保存并退出",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "保存并退出",
+                                        "text": "保存并退出",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 点击 ",
+                                "text": ": 点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`Ctrl+O`",
+                                "text": "Ctrl+O"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 保存更改内容，并点击 ",
+                                "text": " 保存更改内容，并点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`Ctrl+O`",
+                                "text": "Ctrl+O"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 关闭编辑器",
+                                "text": " 关闭编辑器",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "2. **载入Profile**: 使用命令 `source ~/.bash_profile` 或 `source ~/.zshrc`载入更新后的Profile\n\n",
+                "task": false,
+                "loose": true,
+                "text": "**载入Profile**: 使用命令 `source ~/.bash_profile` 或 `source ~/.zshrc`载入更新后的Profile\n",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**载入Profile**: 使用命令 `source ~/.bash_profile` 或 `source ~/.zshrc`载入更新后的Profile\n",
+                        "text": "**载入Profile**: 使用命令 `source ~/.bash_profile` 或 `source ~/.zshrc`载入更新后的Profile",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**载入Profile**",
+                                "text": "载入Profile",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "载入Profile",
+                                        "text": "载入Profile",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 使用命令 ",
+                                "text": ": 使用命令 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`source ~/.bash_profile`",
+                                "text": "source ~/.bash_profile"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 或 ",
+                                "text": " 或 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`source ~/.zshrc`",
+                                "text": "source ~/.zshrc"
+                            },
+                            {
+                                "type": "text",
+                                "raw": "载入更新后的Profile",
+                                "text": "载入更新后的Profile",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "3. **验证**: 可通过运行命令 `echo $DASHSCOPE_API_KEY` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                "task": false,
+                "loose": true,
+                "text": "**验证**: 可通过运行命令 `echo $DASHSCOPE_API_KEY` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**验证**: 可通过运行命令 `echo $DASHSCOPE_API_KEY` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                        "text": "**验证**: 可通过运行命令 `echo $DASHSCOPE_API_KEY` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**验证**",
+                                "text": "验证",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "验证",
+                                        "text": "验证",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 可通过运行命令 ",
+                                "text": ": 可通过运行命令 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`echo $DASHSCOPE_API_KEY`",
+                                "text": "echo $DASHSCOPE_API_KEY"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                                "text": " 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "</p>\n</details>\n</p>\n\n",
+        "pre": false,
+        "text": "</p>\n</details>\n</p>\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "<p style=\"margin-top: 12px;\">\n<details>\n<summary><strong>Windows</strong></summary>\n<p style=\"margin-top: 12px;\">\n\n",
+        "pre": false,
+        "text": "<p style=\"margin-top: 12px;\">\n<details>\n<summary><strong>Windows</strong></summary>\n<p style=\"margin-top: 12px;\">\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "1. **打开终端**: 在开始菜单中输入 `cmd` 搜索\n\n2. **设置环境变量**: 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+        "ordered": true,
+        "start": 1,
+        "loose": true,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "1. **打开终端**: 在开始菜单中输入 `cmd` 搜索\n\n",
+                "task": false,
+                "loose": true,
+                "text": "**打开终端**: 在开始菜单中输入 `cmd` 搜索\n",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**打开终端**: 在开始菜单中输入 `cmd` 搜索\n",
+                        "text": "**打开终端**: 在开始菜单中输入 `cmd` 搜索",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**打开终端**",
+                                "text": "打开终端",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "打开终端",
+                                        "text": "打开终端",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 在开始菜单中输入 ",
+                                "text": ": 在开始菜单中输入 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`cmd`",
+                                "text": "cmd"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 搜索",
+                                "text": " 搜索",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "2. **设置环境变量**: 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                "task": false,
+                "loose": true,
+                "text": "**设置环境变量**: 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**设置环境变量**: 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                        "text": "**设置环境变量**: 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**设置环境变量**",
+                                "text": "设置环境变量",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "设置环境变量",
+                                        "text": "设置环境变量",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                                "text": ": 可以通过运行如下命令为当前会话通过设置环境变量的方式配置API Key",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```bash\nsetx DASHSCOPE_API_KEY 'your-api-key-here'\n```",
+        "lang": "bash",
+        "text": "setx DASHSCOPE_API_KEY 'your-api-key-here'"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "1. **永久配置**: 建议将这个环境变量配置到系统属性中，操作示例如下：",
+        "ordered": true,
+        "start": 1,
+        "loose": false,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "1. **永久配置**: 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                "task": false,
+                "loose": false,
+                "text": "**永久配置**: 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**永久配置**: 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                        "text": "**永久配置**: 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**永久配置**",
+                                "text": "永久配置",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "永久配置",
+                                        "text": "永久配置",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                                "text": ": 建议将这个环境变量配置到系统属性中，操作示例如下：",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "  * 右击 `此电脑` 或者 `我的电脑` 并选择 `属性`\n  * 点击 `高级系统设置`\n  * 点击 `环境变量`\n  * 在 `系统变量` 部分，点击 `新建...`，并输入 `DASHSCOPE_API_KEY` 作为变量名，以及您的API Key作为变量值",
+        "ordered": false,
+        "start": "",
+        "loose": false,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "  * 右击 `此电脑` 或者 `我的电脑` 并选择 `属性`\n",
+                "task": false,
+                "loose": false,
+                "text": "右击 `此电脑` 或者 `我的电脑` 并选择 `属性`",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "右击 `此电脑` 或者 `我的电脑` 并选择 `属性`",
+                        "text": "右击 `此电脑` 或者 `我的电脑` 并选择 `属性`",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "右击 ",
+                                "text": "右击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`此电脑`",
+                                "text": "此电脑"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 或者 ",
+                                "text": " 或者 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`我的电脑`",
+                                "text": "我的电脑"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 并选择 ",
+                                "text": " 并选择 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`属性`",
+                                "text": "属性"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "  * 点击 `高级系统设置`\n",
+                "task": false,
+                "loose": false,
+                "text": "点击 `高级系统设置`",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "点击 `高级系统设置`",
+                        "text": "点击 `高级系统设置`",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "点击 ",
+                                "text": "点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`高级系统设置`",
+                                "text": "高级系统设置"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "  * 点击 `环境变量`\n",
+                "task": false,
+                "loose": false,
+                "text": "点击 `环境变量`",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "点击 `环境变量`",
+                        "text": "点击 `环境变量`",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "点击 ",
+                                "text": "点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`环境变量`",
+                                "text": "环境变量"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list_item",
+                "raw": "  * 在 `系统变量` 部分，点击 `新建...`，并输入 `DASHSCOPE_API_KEY` 作为变量名，以及您的API Key作为变量值",
+                "task": false,
+                "loose": false,
+                "text": "在 `系统变量` 部分，点击 `新建...`，并输入 `DASHSCOPE_API_KEY` 作为变量名，以及您的API Key作为变量值",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "在 `系统变量` 部分，点击 `新建...`，并输入 `DASHSCOPE_API_KEY` 作为变量名，以及您的API Key作为变量值",
+                        "text": "在 `系统变量` 部分，点击 `新建...`，并输入 `DASHSCOPE_API_KEY` 作为变量名，以及您的API Key作为变量值",
+                        "tokens": [
+                            {
+                                "type": "text",
+                                "raw": "在 ",
+                                "text": "在 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`系统变量`",
+                                "text": "系统变量"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 部分，点击 ",
+                                "text": " 部分，点击 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`新建...`",
+                                "text": "新建..."
+                            },
+                            {
+                                "type": "text",
+                                "raw": "，并输入 ",
+                                "text": "，并输入 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`DASHSCOPE_API_KEY`",
+                                "text": "DASHSCOPE_API_KEY"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 作为变量名，以及您的API Key作为变量值",
+                                "text": " 作为变量名，以及您的API Key作为变量值",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "list",
+        "raw": "2. **验证**: 可打开命令行窗口，运行命令 `echo %DASHSCOPE_API_KEY%` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+        "ordered": true,
+        "start": 2,
+        "loose": false,
+        "items": [
+            {
+                "type": "list_item",
+                "raw": "2. **验证**: 可打开命令行窗口，运行命令 `echo %DASHSCOPE_API_KEY%` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                "task": false,
+                "loose": false,
+                "text": "**验证**: 可打开命令行窗口，运行命令 `echo %DASHSCOPE_API_KEY%` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                "tokens": [
+                    {
+                        "type": "text",
+                        "raw": "**验证**: 可打开命令行窗口，运行命令 `echo %DASHSCOPE_API_KEY%` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                        "text": "**验证**: 可打开命令行窗口，运行命令 `echo %DASHSCOPE_API_KEY%` 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                        "tokens": [
+                            {
+                                "type": "strong",
+                                "raw": "**验证**",
+                                "text": "验证",
+                                "tokens": [
+                                    {
+                                        "type": "text",
+                                        "raw": "验证",
+                                        "text": "验证",
+                                        "escaped": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "raw": ": 可打开命令行窗口，运行命令 ",
+                                "text": ": 可打开命令行窗口，运行命令 ",
+                                "escaped": false
+                            },
+                            {
+                                "type": "codespan",
+                                "raw": "`echo %DASHSCOPE_API_KEY%`",
+                                "text": "echo %DASHSCOPE_API_KEY%"
+                            },
+                            {
+                                "type": "text",
+                                "raw": " 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                                "text": " 检查是否配置成功。如配置成功，终端将显示你的API Key",
+                                "escaped": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "html",
+        "block": true,
+        "raw": "</p>\n</details>\n</p>\n\n\n",
+        "pre": false,
+        "text": "</p>\n</details>\n</p>\n\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "## 发送API请求\n\n",
+        "depth": 2,
+        "text": "发送API请求",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "发送API请求",
+                "text": "发送API请求",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "下文介绍如何在Python和curl中使用Qwen API。首先，请查看模型列表，选择您希望使用的模型的id，并在命令中传入 `model` 参数。在本示例中，我们使用 `qwen-plus` 。",
+        "text": "下文介绍如何在Python和curl中使用Qwen API。首先，请查看模型列表，选择您希望使用的模型的id，并在命令中传入 `model` 参数。在本示例中，我们使用 `qwen-plus` 。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "下文介绍如何在Python和curl中使用Qwen API。首先，请查看模型列表，选择您希望使用的模型的id，并在命令中传入 ",
+                "text": "下文介绍如何在Python和curl中使用Qwen API。首先，请查看模型列表，选择您希望使用的模型的id，并在命令中传入 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`model`",
+                "text": "model"
+            },
+            {
+                "type": "text",
+                "raw": " 参数。在本示例中，我们使用 ",
+                "text": " 参数。在本示例中，我们使用 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`qwen-plus`",
+                "text": "qwen-plus"
+            },
+            {
+                "type": "text",
+                "raw": " 。",
+                "text": " 。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "### Python\n\n",
+        "depth": 3,
+        "text": "Python",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "Python",
+                "text": "Python",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "完成上述配置工作后，您即可使用Python向Qwen API发送请求。您可以在IPython或者Jupyter Notebook中运行下列命令，您也可以新建一个 `dashscope-test.py` 文件并粘贴下列代码进入其中。",
+        "text": "完成上述配置工作后，您即可使用Python向Qwen API发送请求。您可以在IPython或者Jupyter Notebook中运行下列命令，您也可以新建一个 `dashscope-test.py` 文件并粘贴下列代码进入其中。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "完成上述配置工作后，您即可使用Python向Qwen API发送请求。您可以在IPython或者Jupyter Notebook中运行下列命令，您也可以新建一个 ",
+                "text": "完成上述配置工作后，您即可使用Python向Qwen API发送请求。您可以在IPython或者Jupyter Notebook中运行下列命令，您也可以新建一个 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`dashscope-test.py`",
+                "text": "dashscope-test.py"
+            },
+            {
+                "type": "text",
+                "raw": " 文件并粘贴下列代码进入其中。",
+                "text": " 文件并粘贴下列代码进入其中。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "``` python\nfrom openai import OpenAI\nimport os\n\nclient = OpenAI(\n    api_key=os.getenv(\"DASHSCOPE_API_KEY\"),\n    base_url=\"https://dashscope.aliyuncs.com/compatible-mode/v1\",\n)\n\ncompletion = client.chat.completions.create(\n    model=\"qwen-plus\",\n    messages=[\n      {'role': 'system', 'content': 'You are a helpful assistant.'},\n      {'role': 'user', 'content': '你好！'}\n    ]\n)\n\nprint(completion.choices[0].message)\n```",
+        "lang": "python",
+        "text": "from openai import OpenAI\nimport os\n\nclient = OpenAI(\n    api_key=os.getenv(\"DASHSCOPE_API_KEY\"),\n    base_url=\"https://dashscope.aliyuncs.com/compatible-mode/v1\",\n)\n\ncompletion = client.chat.completions.create(\n    model=\"qwen-plus\",\n    messages=[\n      {'role': 'system', 'content': 'You are a helpful assistant.'},\n      {'role': 'user', 'content': '你好！'}\n    ]\n)\n\nprint(completion.choices[0].message)"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "如使用 `dashscope-test.py` 文件，您可在终端中运行命令 `python dashscope-test.py` 。运行正常，终端将返回类似如下内容：",
+        "text": "如使用 `dashscope-test.py` 文件，您可在终端中运行命令 `python dashscope-test.py` 。运行正常，终端将返回类似如下内容：",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "如使用 ",
+                "text": "如使用 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`dashscope-test.py`",
+                "text": "dashscope-test.py"
+            },
+            {
+                "type": "text",
+                "raw": " 文件，您可在终端中运行命令 ",
+                "text": " 文件，您可在终端中运行命令 ",
+                "escaped": false
+            },
+            {
+                "type": "codespan",
+                "raw": "`python dashscope-test.py`",
+                "text": "python dashscope-test.py"
+            },
+            {
+                "type": "text",
+                "raw": " 。运行正常，终端将返回类似如下内容：",
+                "text": " 。运行正常，终端将返回类似如下内容：",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```\nChatCompletionMessage(content='你好！很高兴为你提供帮助。', role='assistant', function_call=None, tool_calls=None)\n```",
+        "lang": "",
+        "text": "ChatCompletionMessage(content='你好！很高兴为你提供帮助。', role='assistant', function_call=None, tool_calls=None)"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "这是Qwen API的Chat Completion的最简单用法，如需了解更多细节，如流式输出、function call等，请继续阅读本文档。",
+        "text": "这是Qwen API的Chat Completion的最简单用法，如需了解更多细节，如流式输出、function call等，请继续阅读本文档。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "这是Qwen API的Chat Completion的最简单用法，如需了解更多细节，如流式输出、function call等，请继续阅读本文档。",
+                "text": "这是Qwen API的Chat Completion的最简单用法，如需了解更多细节，如流式输出、function call等，请继续阅读本文档。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "### curl\n\n",
+        "depth": 3,
+        "text": "curl",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "curl",
+                "text": "curl",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "完成环境配置后，您可在终端运行如下命令测试是否能成功向Qwen API发送请求。",
+        "text": "完成环境配置后，您可在终端运行如下命令测试是否能成功向Qwen API发送请求。",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "完成环境配置后，您可在终端运行如下命令测试是否能成功向Qwen API发送请求。",
+                "text": "完成环境配置后，您可在终端运行如下命令测试是否能成功向Qwen API发送请求。",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```bash\ncurl --location 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions' \\\n  --header \"Authorization: Bearer $DASHSCOPE_API_KEY\" \\\n  --header 'Content-Type: application/json' \\\n  --data '{\n    \"model\": \"qwen-plus\",\n    \"messages\": [\n      {\n        \"role\": \"system\",\n        \"content\": \"You are a helpful assistant.\"\n      },\n      {\n        \"role\": \"user\",\n        \"content\": \"你是谁？\"\n      }\n    ]\n  }'\n```",
+        "lang": "bash",
+        "text": "curl --location 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions' \\\n  --header \"Authorization: Bearer $DASHSCOPE_API_KEY\" \\\n  --header 'Content-Type: application/json' \\\n  --data '{\n    \"model\": \"qwen-plus\",\n    \"messages\": [\n      {\n        \"role\": \"system\",\n        \"content\": \"You are a helpful assistant.\"\n      },\n      {\n        \"role\": \"user\",\n        \"content\": \"你是谁？\"\n      }\n    ]\n  }'"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "paragraph",
+        "raw": "如发送成功，终端将返回类似如下结果：",
+        "text": "如发送成功，终端将返回类似如下结果：",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "如发送成功，终端将返回类似如下结果：",
+                "text": "如发送成功，终端将返回类似如下结果：",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "code",
+        "raw": "```json\n{\"choices\":[{\"message\":{\"role\":\"assistant\",\"content\":\"我是通义千问，由阿里云开发的人工智能助手。我被设计用来回答各种问题、提供信息和与用户进行对话。有什么我可以帮助你的吗？\"},\"finish_reason\":\"stop\",\"index\":0,\"logprobs\":null}],\"object\":\"chat.completion\",\"usage\":{\"prompt_tokens\":22,\"completion_tokens\":37,\"total_tokens\":59},\"created\":1722162849,\"system_fingerprint\":null,\"model\":\"qwen-plus\",\"id\":\"chatcmpl-6b7e166c-dbb6-92fc-91e5-003a5d6a3b77\"}\n```",
+        "lang": "json",
+        "text": "{\"choices\":[{\"message\":{\"role\":\"assistant\",\"content\":\"我是通义千问，由阿里云开发的人工智能助手。我被设计用来回答各种问题、提供信息和与用户进行对话。有什么我可以帮助你的吗？\"},\"finish_reason\":\"stop\",\"index\":0,\"logprobs\":null}],\"object\":\"chat.completion\",\"usage\":{\"prompt_tokens\":22,\"completion_tokens\":37,\"total_tokens\":59},\"created\":1722162849,\"system_fingerprint\":null,\"model\":\"qwen-plus\",\"id\":\"chatcmpl-6b7e166c-dbb6-92fc-91e5-003a5d6a3b77\"}"
+    },
+    {
+        "type": "space",
+        "raw": "\n\n"
+    },
+    {
+        "type": "heading",
+        "raw": "## 下一步\n\n",
+        "depth": 2,
+        "text": "下一步",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "下一步",
+                "text": "下一步",
+                "escaped": false
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "raw": "如您已经完成上述步骤，恭喜您成功使用Qwen API。如果想了解更多用法，欢迎阅读其他章节！",
+        "text": "如您已经完成上述步骤，恭喜您成功使用Qwen API。如果想了解更多用法，欢迎阅读其他章节！",
+        "tokens": [
+            {
+                "type": "text",
+                "raw": "如您已经完成上述步骤，恭喜您成功使用Qwen API。如果想了解更多用法，欢迎阅读其他章节！",
+                "text": "如您已经完成上述步骤，恭喜您成功使用Qwen API。如果想了解更多用法，欢迎阅读其他章节！",
+                "escaped": false
+            }
+        ]
+    }
+]
